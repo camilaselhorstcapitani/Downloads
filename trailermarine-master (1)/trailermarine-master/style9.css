@@ -22,7 +22,8 @@ body
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-size: 100%;  
+    background-size: 100%;
+    flex-direction: row;
 }
 
 .quadradodados
@@ -48,8 +49,18 @@ a
 .carrinho
 {
     height: 10px;
-    width: 40%;
-    display:flex;
-    align-content: center;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.perfil
+{
+    height: 10px;
+    width: 10%;
+}
+
+.botao:hover{
+    background-color: rgb(81, 189, 251);
 }
