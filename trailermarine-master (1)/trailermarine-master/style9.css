@@ -48,17 +48,19 @@ a
 
 .carrinho
 {
-    height: 10px;
-    width: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 100px; /*altura*/
+    width: 150%; /* largura*/
+    margin-top: 2%;
+    padding-left: 80%;
+
 }
 
 .perfil
 {
-    height: 10px;
-    width: 10%;
+    height: 100px; /*altura*/
+    width: 100%; /* largura*/
+    margin-top: -7%;
+    padding-left: 90%;
 }
 
 .botao:hover{
